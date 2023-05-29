@@ -1,0 +1,12 @@
+{
+    "name": "Fish Detector",
+    "version": "1.0.0",
+    "description": "Fish detector description",
+    "manifest_version": 3,
+    "author": "Ariesta Putra",
+    "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Fish Detector"
+    }
+}

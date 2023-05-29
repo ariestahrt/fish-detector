@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Fish Detector</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Fish Detector</h1>
+    <div id="container">
+      <div class="left">
+        <label for="feature">Feature:</label><br/>
+        <select id="feature">
+          <option value="text">Text</option>
+          <option value="html">HTML Structure</option>
+          <option value="css">CSS Rule</option>
+          <option value="all" selected>All Feature</option>
+        </select>     
+      </div>
+      <div class="right">
+        <label for="threshold">Threshold:</label>
+        <input id="threshold" type="number" value="0.7" max="1" step="0.01" />
+      </div>
+    </div>
+    <button id="scanButton">Scan This Site</button>
+  </body>
+  <script src="script.js"></script>
+</html>

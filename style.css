@@ -1,0 +1,31 @@
+html {
+  width: 400px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center; margin-bottom: 12px;
+}
+
+.left {
+  float: left; width: 50%;
+}
+
+.right {
+  float: right; width: 50%;
+}
+
+#scanButton {
+  border-radius: 0px; width: 100%; padding: 10px 0px; margin-top: 10px;
+}
+
+#feature {
+  width: 100%; padding: 10px 0px;
+}
+
+#threshold {
+  width: 100%; padding: 10px 5px;
+}
